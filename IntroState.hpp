@@ -14,5 +14,6 @@ public:
 	void draw();
 	void handleInput();
 private:
-	Object intro;
+	sf::Sprite intro;
+	sf::Texture introTex;
 };

@@ -1,11 +1,9 @@
 #include "Window.hpp"
-#define defWinWidth 1920
-#define defWinHeight 1080
 
 Win::Win()
 {
-	scal.x = 0.41;
-	scal.y = 0.55;
+	scal.x = 1;
+	scal.y = 1;
 	loadConf();
 	generateWindow();
 }
@@ -15,11 +13,11 @@ void Win::loadConf()
 	std::ifstream file("mainconfig.conf");
 	int lineNum = 0;
 
-	std::cout << "O mainconfig: loading settings" << std::endl;
+	std::cout << "0 mainconfig: loading settings" << std::endl;
 
 	if(!file)
 	{
-		std::cout << "X mainconfig: Error, mainconfig not found, running at default settings" << std::endl;
+		std::cout << "- mainconfig: Warning, mainconfig not found, running at default settings" << std::endl;
 		return;
 	}
 
@@ -79,6 +77,6 @@ void Win::generateConf()
 
 void Win::generateWindow()
 {
-	create(sf::VideoMode(1920 * scal.x, defWinHeight * scal.y), winName);
+	create(sf::VideoMode(defWinWidth * scal.x, defWinHeight * scal.y), winName);
 	setFramerateLimit(framerateLimit);
 }

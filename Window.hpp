@@ -7,6 +7,8 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 
 #define winName "fooGame"
+#define defWinWidth 1920
+#define defWinHeight 1080
 
 
 class Win: public sf::RenderWindow

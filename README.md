@@ -7,12 +7,21 @@
     - add timer to change intro images
     - handle input (esc to skip intro state)
 - Game State
-    - std::unique_ptr<Level> level; 
-- Levels
-    - create Level class with its functions
-    - create first level class
+    - generate area that is needed
+    - handle input
+- Area
+    - add more areas
+    - load character
+- Valley
+    - create 2d terrain with normals
+    - add vegetation/animals
+    - add shadows to the trees
+    - display character
+    - enemies
     
 - Art
     - character
     - terrain
+    - enemies
     - buildings
+    - vegetation/animals

@@ -27,8 +27,7 @@ void IntroState::draw()
 
 void IntroState::loadFiles()
 {
-	intro.loadTexture("img/intro.png");
-	intro.setSize(window.scal, 1920, 1080);
+	
 }
 
 void IntroState::handleInput()
