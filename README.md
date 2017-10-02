@@ -11,12 +11,11 @@
     - handle input
 - Area
     - add more areas
-    - load character
+    - load characters
 - Valley
     - create 2d terrain with normals
     - add vegetation/animals
     - add shadows to the trees
-    - display character
     - enemies
     
 - Art
@@ -25,3 +24,9 @@
     - enemies
     - buildings
     - vegetation/animals
+
+- Character
+    - finish mage (particle effect, walking animation)
+    - add orc
+    - add human
+    - add NPCs
