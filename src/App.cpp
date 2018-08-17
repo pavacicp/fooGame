@@ -5,6 +5,7 @@
 #include "PlayState.hpp"
 
 
+
 void App::run()
 {
 	//later change to intro state
@@ -15,8 +16,8 @@ void App::run()
 		machine.draw();
 		machine.handleEvents();
 		machine.handleInput();
-		
+
 	}
 
-		
+
 }

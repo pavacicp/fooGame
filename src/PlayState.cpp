@@ -15,8 +15,6 @@ void PlayState::update()
 	localPlayer.update();
 
 	handleInput();
-
-
 	draw();
 }
 
@@ -25,24 +23,19 @@ void PlayState::draw()
 	window.clear();
 
 	area->draw();
-	window.draw(localPlayer);
 
+	window.draw(localPlayer);
 	window.display();
 }
 
 void PlayState::loadFiles()
 {
 	area->loadFiles();
-	localPlayer.loadFiles("img/char/mage/");
-
-
+	localPlayer.loadFiles(img_folder + "/char/mage/");
 }
 
 void PlayState::handleInput()
 {
 	area->handleInput();
 	localPlayer.handleInput(window);
-
-
-	
 }

@@ -12,7 +12,8 @@ void Valley::draw()
 }
 void Valley::update()
 {
-	
+
+
 }
 void Valley::handleInput()
 {
@@ -21,6 +22,7 @@ void Valley::handleInput()
 
 void Valley::loadFiles()
 {
-	terrainTex.loadFromFile("img/cracks.png");
+	std::cout << img_folder<< '\n';
+	terrainTex.loadFromFile(img_folder + "/cracks.png");
 	terrain.setTexture(terrainTex);
 }

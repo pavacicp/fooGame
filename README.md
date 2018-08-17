@@ -1,4 +1,5 @@
 # fooGame
+
 ### To do:
 - StateMachine
     - function for generating new states and destroying old ones if needed

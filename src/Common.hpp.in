@@ -24,6 +24,8 @@ private:
 
 };
 
+const std::string img_folder{"${IMG_FOLDER}"};
+
 class Creature : public sf::Drawable
 {
 public:
