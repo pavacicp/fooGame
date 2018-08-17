@@ -1,4 +1,6 @@
-# fooGame
+# fooGame 
+
+## This project has been moved to the [gitlab](https://gitlab.com/ppavacic/fooGame)
 
 ### To do:
 - StateMachine
